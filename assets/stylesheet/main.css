@@ -1,0 +1,78 @@
+.card {
+  position: fixed;
+  border: solid 1px black;
+  border-radius: 1em;
+  width: 12.5em;
+  height: 25em;
+  margin: 10em auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 0 15px black;
+}
+.card .card-text {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+.card button {
+  margin: auto;
+  padding: 1em 2em;
+}
+
+.swipe-card-in {
+  -webkit-animation-name: swipe-in;
+          animation-name: swipe-in;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.swipe-card-out {
+  -webkit-animation-name: swipe-out;
+          animation-name: swipe-out;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes swipe-out {
+  0% {
+    transform: translateX(5.5em) rotateZ(0);
+  }
+  100% {
+    transform: translateX(-30em) rotateZ(-45deg);
+  }
+}
+
+@keyframes swipe-out {
+  0% {
+    transform: translateX(5.5em) rotateZ(0);
+  }
+  100% {
+    transform: translateX(-30em) rotateZ(-45deg);
+  }
+}
+@-webkit-keyframes swipe-in {
+  0% {
+    transform: translateX(30em) rotateZ(45deg);
+  }
+  100% {
+    transform: translateX(5.5em) rotateZ(0);
+  }
+}
+@keyframes swipe-in {
+  0% {
+    transform: translateX(30em) rotateZ(45deg);
+  }
+  100% {
+    transform: translateX(5.5em) rotateZ(0);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+.card{
+    position: fixed;
+    border: solid 1px black;
+    border-radius: 1em;
+    width: 12.5em;
+    height: 25em;
+    margin: 10em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0 0 15px black;
+    .card-text{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+    button{
+        margin: auto;
+        padding: 1em 2em;
+    }
+}
+
+.swipe-card-in{
+    animation-name: swipe-in;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+.swipe-card-out{
+    animation-name: swipe-out;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes swipe-out {
+    0%{transform: translateX(5.5em) rotateZ(0);}
+    100%{transform: translateX(-30em) rotateZ(-45deg);}
+}
+
+@keyframes swipe-in {
+    0%{
+        transform: translateX(30em) rotateZ(45deg);
+    }
+    100%{
+        transform: translateX(5.5em) rotateZ(0);;
+    }
+}
