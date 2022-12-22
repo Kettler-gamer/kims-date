@@ -24,25 +24,18 @@ function createCard(card, styleClass) {
   }
   cardContainer.innerHTML = `<p class="card-text">${card.text}</p>`;
   if (card.command != null) {
-    cardContainer.innerHTML += `<button>Next</button>`;
+    cardContainer.innerHTML += `<button>Choose</button>`;
     cardContainer.querySelector("button").addEventListener("click", (event) => {
-      onNextClick(event, card.command);
+      handleCommand(event, card);
     });
   }
   pageCards.append(cardContainer);
 }
 
-function onNextClick(event, command) {
-  console.log(command);
-  handleCommand(event, command);
-}
-
-function onNextCard(lastCard) {
-  if (cardList[currentCardListIndex].newSrc != undefined) {
+function onNextCard(cardsToRemove, clickedCardInfo) {
+  if (clickedCardInfo.newSrc != undefined) {
     const newList = fetch(
-      "assets/src/card-collection/" +
-        cardList[currentCardListIndex].newSrc +
-        ".json"
+      "assets/src/card-collection/" + clickedCardInfo.newSrc + ".json"
     );
     onGettingNewList(newList);
   } else {
@@ -50,7 +43,7 @@ function onNextCard(lastCard) {
     createCard(cardList[currentCardListIndex]);
   }
   setTimeout(() => {
-    removeCard(lastCard);
+    removeCards(cardsToRemove);
   }, 250);
 }
 
@@ -66,8 +59,10 @@ async function onGettingNewList(newList) {
   });
 }
 
-function removeCard(card) {
-  card.remove();
+function removeCards(cards) {
+  for (let card of cards) {
+    card.remove();
+  }
 }
 
 (() => {

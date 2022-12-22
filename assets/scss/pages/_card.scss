@@ -58,15 +58,15 @@
 }
 
 @keyframes swipe-out {
-    0%{transform: translateX(5.5em) rotateZ(0);}
-    100%{transform: translateX(-30em) rotateZ(-45deg);}
+    0%{transform: translateX(5.5em) rotateZ(0); opacity: 1;}
+    100%{transform: translateX(-30em) rotateZ(-45deg); opacity: 0;}
 }
 
 @keyframes swipe-in {
     0%{
-        transform: translateX(30em) rotateZ(45deg);
+        transform: translateX(30em) rotateZ(45deg); opacity: 0;
     }
     100%{
-        transform: translateX(5.5em) rotateZ(0);;
+        transform: translateX(5.5em) rotateZ(0); opacity: 1;
     }
 }

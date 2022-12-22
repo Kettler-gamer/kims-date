@@ -1,6 +1,6 @@
 [
     {"text":"Sovrum", "options":[
-        {"text":"Garderob", "newSrc":"Home/Bedroom/Wardrobe/Main"},
+        {"text":"Garderob", "newSrc":"Home/Bedroom/Wardrobe/Main", "command":"next"},
         {"text":"Köket", "newSrc":"Home/Kitchen/Main"},
         {"text":"Hallen", "newSrc":"Home/Hallway/Main"}
         ]}
