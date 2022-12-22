@@ -3,8 +3,8 @@ function handleCommand(event, card) {
     case card.command == "next":
       onNextCard(getCardsToRemove(), card);
       break;
-    case card.command.startsWith("clothes"):
-      setClothes(card.command);
+    case card.command.startsWith("set-prop"):
+      setProp(card.command);
       onNextCard(getCardsToRemove(), card);
       break;
     default:
@@ -16,15 +16,15 @@ function getCardsToRemove() {
   const list = [];
 
   for (let card of pageCards.childNodes) {
-    card.className = "card swipe-card-out";
+    card.classList.toggle("swipe-card-out");
     list.push(card);
   }
 
   return list;
 }
 
-function setClothes(command) {
-  const choice = command.split(" ")[1];
+function setProp(command) {
+  const arr = command.split(" ");
 
-  console.log(choice);
+  playerChoices[arr[1]] = arr[2];
 }

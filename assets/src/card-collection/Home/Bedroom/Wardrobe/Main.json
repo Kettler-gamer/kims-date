@@ -1,8 +1,23 @@
 [
-    {"text":"Garderob", "options":[
-        {"text":"Kostym", "newSrc":"Home/Bedroom/Wardrobe/Choices/CostumeChoice", "command":"clothes costume"},
-        {"text":"Mjukisbyxor och Hoodie", "newSrc":"Home/Bedroom/Wardrobe/Choices/HoodieChoice", "command":"clothes hoodie"},
-        {"text":"Skunkpäls", "newSrc":"Home/Bedroom/Wardrobe/Choices/SkunkChoice", "command":"clothes skunk"},
-        {"text":"Badbyxor och Solglasögon", "newSrc":"Home/Bedroom/Wardrobe/Choices/BathChoice", "command":"clothes bath"}
-        ]}
+    {"text":"Garderob", 
+    "options":[
+        {"text":"Kostym", 
+        "newSrc":"Home/Bedroom/Wardrobe/Choices/CostumeChoice", 
+        "command":"set-prop clothes costume" ,
+        "btnName":"Ta på"},
+        {"text":"Mjukisbyxor och Hoodie", 
+        "newSrc":"Home/Bedroom/Wardrobe/Choices/HoodieChoice", 
+        "command":"set-prop clothes hoodie" ,
+        "btnName":"Ta på"},
+        {"text":"Skunkpäls", 
+        "newSrc":"Home/Bedroom/Wardrobe/Choices/SkunkChoice", 
+        "command":"set-prop clothes skunk" ,
+        "btnName":"Ta på"},
+        {"text":"Badbyxor och Solglasögon", 
+        "newSrc":"Home/Bedroom/Wardrobe/Choices/BathChoice", 
+        "command":"set-prop clothes bath" ,
+        "btnName":"Ta på"}
+    ], "newSrc":"Home/Bedroom/Main", 
+    "command":"next",
+    "btnName":"Sovrum"}
 ]

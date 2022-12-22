@@ -1,12 +1,23 @@
 const pageCards = document.querySelector(".page-cards");
 
+const playerChoices = {};
+
 const cardList = [
-  { text: "Det här är den största dagen i Kims liv!", command: "next" },
-  { text: "Han ska gå på sin första dejt någonsin!", command: "next" },
-  { text: "Hon heter Julia.", command: "next" },
+  {
+    text: "Det här är den största dagen i Kims liv!",
+    command: "next",
+    btnName: "Nästa",
+  },
+  {
+    text: "Han ska gå på sin första dejt någonsin!",
+    command: "next",
+    btnName: "Nästa",
+  },
+  { text: "Hon heter Julia.", command: "next", btnName: "Nästa" },
   {
     text: "Det är lördag morgon och Kim ska förbereda sig för dejten…",
     command: "next",
+    btnName: "Jag är redo!",
     newSrc: "Home/Bedroom/Main",
   },
 ];
@@ -24,7 +35,7 @@ function createCard(card, styleClass) {
   }
   cardContainer.innerHTML = `<p class="card-text">${card.text}</p>`;
   if (card.command != null) {
-    cardContainer.innerHTML += `<button>Choose</button>`;
+    cardContainer.innerHTML += `<button>${card.btnName}</button>`;
     cardContainer.querySelector("button").addEventListener("click", (event) => {
       handleCommand(event, card);
     });

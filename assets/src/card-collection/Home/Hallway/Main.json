@@ -1,0 +1,7 @@
+[
+    {"text":"Hallen", 
+    "options":[
+        {"text":"Gå ut"},
+        {"text":"Köket", "newSrc":"Home/Kitchen/Main", "command":"next", "btnName":"Gå"}
+    ]}
+]

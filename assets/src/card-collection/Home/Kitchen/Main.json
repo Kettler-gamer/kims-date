@@ -1,0 +1,8 @@
+[
+    {"text":"Köket", "options":[
+        {"text": "Kylskåp", "command":"next","btnName": "Öppna", "newSrc":"Home/Kitchen/Fridge/Main" },
+        {"text": "Porrtidning", "command":"next","btnName": "Läs" },
+        {"text": "Hallen", "newSrc":"Home/Hallway/Main", "command":"next", "btnName":"Gå"},
+        {"text": "Kylskåp", "command":"next","btnName": "Öppna" }
+    ]}
+]

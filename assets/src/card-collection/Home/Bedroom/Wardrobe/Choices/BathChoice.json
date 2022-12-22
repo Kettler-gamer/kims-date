@@ -1,3 +1,6 @@
 [
-    {"text":"Kim ser sig i spegeln och beundrar hur stilig han ser ut!", "newSrc":"Home/Bedroom/Main", "command":"next"}
+    {"text":"Badbyxorna har Kim haft sen han var liten, Spider-Man loggan har dock börjat flagna!", 
+    "newSrc":"Home/Bedroom/Main", 
+    "command":"next",
+    "btnName":"Sovrum"}
 ]

@@ -1,7 +1,7 @@
 [
     {"text":"Sovrum", "options":[
-        {"text":"Garderob", "newSrc":"Home/Bedroom/Wardrobe/Main", "command":"next"},
-        {"text":"Köket", "newSrc":"Home/Kitchen/Main"},
-        {"text":"Hallen", "newSrc":"Home/Hallway/Main"}
-        ]}
+        {"text":"Garderob", "newSrc":"Home/Bedroom/Wardrobe/Main", "command":"next", "btnName":"Öppna"},
+        {"text":"Hallen", "newSrc":"Home/Hallway/Main", "command":"next", "btnName":"Gå"},
+        {"text":"Skrivbord", "newSrc":"Home/Bedroom/Desk/Main", "command":"next", "btnName":"Förbered"}
+    ]}
 ]
