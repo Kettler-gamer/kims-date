@@ -21,6 +21,28 @@
   padding: 1em 2em;
 }
 
+.page-cards .option-card {
+  position: absolute;
+  height: 15em;
+  width: 8em;
+  z-index: 10;
+  background-color: white;
+}
+.page-cards .option-card:nth-child(1) {
+  left: -5.5em;
+}
+.page-cards .option-card:nth-child(2) {
+  right: 5.5em;
+}
+.page-cards .option-card:nth-child(3) {
+  left: -5.5em;
+  bottom: 0;
+}
+.page-cards .option-card:nth-child(4) {
+  right: 5.5em;
+  bottom: 0;
+}
+
 .swipe-card-in {
   -webkit-animation-name: swipe-in;
           animation-name: swipe-in;

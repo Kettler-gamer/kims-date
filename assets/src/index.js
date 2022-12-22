@@ -1,31 +1,40 @@
 const pageCards = document.querySelector(".page-cards");
 
 const cardList = [
-  { text: "Det här är den största dagen i Kims liv!" },
-  { text: "Han ska gå på sin första dejt någonsin!" },
-  { text: "Hon heter Julia." },
+  { text: "Det här är den största dagen i Kims liv!", command: "next" },
+  { text: "Han ska gå på sin första dejt någonsin!", command: "next" },
+  { text: "Hon heter Julia.", command: "next" },
   {
     text: "Det är lördag morgon och Kim ska förbereda sig för dejten…",
-    newSrc: "test",
+    command: "next",
+    newSrc: "Home/Bedroom/Main",
   },
 ];
 
 let currentCardListIndex = 0;
 
-function createCard(text) {
-  const card = document.createElement("div");
-  card.className = "card swipe-card-in";
-  card.innerHTML = `
-    <p class="card-text">${text}</p>
-    <button onclick="onNextClick(event)">Next</button>
-    `;
-  pageCards.append(card);
+function createCard(card, styleClass) {
+  const cardContainer = document.createElement("div");
+  cardContainer.className =
+    styleClass != undefined ? styleClass : "card swipe-card-in";
+  if (card.options != undefined) {
+    for (let optionCard of card.options) {
+      createCard(optionCard, "card swipe-card-in option-card");
+    }
+  }
+  cardContainer.innerHTML = `<p class="card-text">${card.text}</p>`;
+  if (card.command != null) {
+    cardContainer.innerHTML += `<button>Next</button>`;
+    cardContainer.querySelector("button").addEventListener("click", (event) => {
+      onNextClick(event, card.command);
+    });
+  }
+  pageCards.append(cardContainer);
 }
 
-function onNextClick(event) {
-  const parent = event.currentTarget.parentElement;
-  parent.className = "card swipe-card-out";
-  onNextCard(parent);
+function onNextClick(event, command) {
+  console.log(command);
+  handleCommand(event, command);
 }
 
 function onNextCard(lastCard) {
@@ -38,7 +47,7 @@ function onNextCard(lastCard) {
     onGettingNewList(newList);
   } else {
     currentCardListIndex++;
-    createCard(cardList[currentCardListIndex].text);
+    createCard(cardList[currentCardListIndex]);
   }
   setTimeout(() => {
     removeCard(lastCard);
@@ -53,7 +62,7 @@ async function onGettingNewList(newList) {
       cardList.push(card);
     }
     currentCardListIndex = 0;
-    createCard(cardList[currentCardListIndex].text);
+    createCard(cardList[currentCardListIndex]);
   });
 }
 
@@ -62,5 +71,5 @@ function removeCard(card) {
 }
 
 (() => {
-  createCard(cardList[currentCardListIndex].text);
+  createCard(cardList[currentCardListIndex]);
 })();

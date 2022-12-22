@@ -1,0 +1,7 @@
+[
+    {"text":"Sovrum", "options":[
+        {"text":"Garderob", "newSrc":"Home/Bedroom/Wardrobe/Main"},
+        {"text":"Köket", "newSrc":"Home/Kitchen/Main"},
+        {"text":"Hallen", "newSrc":"Home/Hallway/Main"}
+        ]}
+]
