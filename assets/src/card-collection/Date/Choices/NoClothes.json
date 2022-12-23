@@ -3,7 +3,7 @@
     "command":"next",
     "btnName":"Skumt..."},
 
-    {"text":"Kim var medveten om att hanm hade en unik aura som brukade sprida sig i offentligheten men det här var annorlunda...",
+    {"text":"Kim var medveten om att han hade en unik aura som brukade sprida sig i offentligheten men det här var annorlunda...",
     "command":"next",
     "btnName":"Väldigt skumt..."},
 
@@ -15,5 +15,5 @@
     "command":"next",
     "btnName": "Hoppsan..."},
 
-    {"text": "Kim hamnade i fängelset!"}
+    {"text": "Kim hamnade i fängelset och fick aldrig chansen att träffa Wilma..."}
 ]

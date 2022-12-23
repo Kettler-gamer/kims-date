@@ -45,6 +45,7 @@ function checkConditions(card) {
   for (let i = 0; i < conditions.length; i++) {
     if (eval(conditions[i])) {
       onNextCard(getCardsToRemove(), { newSrc: newSrcs[i] });
+      return;
     }
   }
   onNextCard(getCardsToRemove(), { newSrc: newSrcs[newSrcs.length - 1] });
