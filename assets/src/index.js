@@ -13,7 +13,7 @@ const cardList = [
     command: "next",
     btnName: "Nästa",
   },
-  { text: "Hon heter Julia.", command: "next", btnName: "Nästa" },
+  { text: "Hon heter Wilma.", command: "next", btnName: "Nästa" },
   {
     text: "Det är lördag morgon och Kim ska förbereda sig för dejten…",
     command: "next",
@@ -30,7 +30,11 @@ function createCard(card, styleClass) {
     styleClass != undefined ? styleClass : "card swipe-card-in";
   if (card.options != undefined) {
     for (let optionCard of card.options) {
-      createCard(optionCard, "card swipe-card-in option-card");
+      if (optionCard.condition != undefined && eval(optionCard.condition)) {
+        createCard(optionCard, "card swipe-card-in option-card");
+      } else if (optionCard.condition == undefined) {
+        createCard(optionCard, "card swipe-card-in option-card");
+      }
     }
   }
   cardContainer.innerHTML = `<p class="card-text">${card.text}</p>`;

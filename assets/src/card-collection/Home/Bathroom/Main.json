@@ -1,0 +1,32 @@
+[
+    {"text":"Badrum", "options":[
+        {"text":"Dush",
+        "command":"set-prop shower true",
+        "btnName": "Dusha",
+        "condition":"playerChoices.clothes == undefined",
+        "newSrc": "Home/Bathroom/Choices/Shower"},
+
+        {"text":"Tandborste",
+        "command": "set-prop teeth true",
+        "btnName": "Borsta tänderna",
+        "condition": "playerChoices.teeth == undefined",
+        "newSrc": "Home/Bathroom/Choices/Teeth"},
+
+        {"text":"Köket",
+        "command": "next",
+        "btnName": "Gå",
+        "newSrc": "Home/Kitchen/Main"},
+
+        {"text":"Toalett",
+        "command": "set-prop toilet true",
+        "btnName": "Gör dina behov",
+        "condition": "playerChoices.toilet == undefined",
+        "newSrc": "Home/Bathroom/Choices/Toilet"},
+
+        {"text":"Handfat",
+        "command": "set-prop handsWashed true",
+        "btnName": "Tvätta händerna",
+        "condition": "playerChoices.toilet != undefined && playerChoices.handsWashed == undefined",
+        "newSrc": "Home/Bathroom/Choices/HandWashing"}
+    ]}
+]

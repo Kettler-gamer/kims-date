@@ -1,0 +1,24 @@
+[
+    {"text":"Kylskåp",
+    "options":[
+        {"text": "Smörgås",
+        "command": "set-prop food sandwich",
+        "btnName": "Ät",
+        "newSrc": "Home/Kitchen/Fridge/Choices/Sandwich"},
+        
+        {"text":"Halv pizza",
+        "command":"set-prop food pizza",
+        "btnName":"Ät",
+        "newSrc":"Home/Kitchen/Fridge/Choices/Pizza"},
+    
+        {"text":"Köket",
+        "command":"next",
+        "btnName":"Gå",
+        "newSrc":"Home/Kitchen/Fridge/Main"},
+    
+        {"text": "Möglig banan",
+        "command": "set-prop food banana",
+        "btnName": "Ät",
+        "newSrc": "Home/Kitchen/Fridge/Choices/Banana"}
+    ]}
+]

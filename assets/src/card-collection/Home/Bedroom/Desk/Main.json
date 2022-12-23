@@ -1,3 +1,9 @@
 [
-    {"text":"Hej!"}
+    {"text":"Skrivbord", "options":[
+        {"text":"World of Warcraft", 
+        "command":"set-prop playedGame WoW", 
+        "btnName":"Spela",
+        "newSrc":"Home/Bedroom/Desk/Choices/PlayWow",
+        "condition": "playerChoices.playedGame == undefined"}
+    ]}
 ]
