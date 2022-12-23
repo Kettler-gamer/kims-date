@@ -6,7 +6,7 @@
         "playerChoices.clothes == undefined"
     ],
     "newSrcs":[
-        "Date/Choices/NoClothes",
-        "Date/Choices/Clothes"
+        "Date/NoClothes/Main",
+        "Date/Clothes/Main"
     ]}
 ]

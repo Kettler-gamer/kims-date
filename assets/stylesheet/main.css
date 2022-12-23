@@ -1,3 +1,7 @@
+.calls {
+  text-align: center;
+}
+
 .page-cards {
   position: relative;
   margin-top: -3em;
@@ -25,6 +29,7 @@
 }
 .page-cards .card button {
   margin: auto;
+  width: 8em;
   padding: 1em 2em;
 }
 .page-cards .option-card {

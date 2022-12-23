@@ -1,0 +1,20 @@
+[
+    {"text":"Mobil",
+    "options":[
+        {"text":"Mamma",
+        "command":"set-prop calledMom true",
+        "btnName": "Ring",
+        "newSrc":"Home/Bedroom/Desk/Mobile/Choices/CallMom",
+        "condition":"playerChoices.calledMom == undefined"},
+
+        {"text": "Telefon",
+        "command": "set-prop tookPhone true",
+        "btnName": "Ta med dig",
+        "newSrc": "Home/Bedroom/Desk/Main"},
+
+        {"text": "Telefon",
+        "command": "next",
+        "btnName": "Lämna hemma",
+        "newSrc": "Home/Bedroom/Desk/Main"}
+    ]}
+]

@@ -1,3 +1,19 @@
 [
-    {"text":"Efter att Kim sköljt av tvålen från händerna märker han hur !", "command":"next", "newSrc":"Home/Bathroom/Main", "btnName":"Spola och ställ dig upp"}
+    {"text":"Efter att Kim sköljt av tvålen från händerna märker han att han har en finne i ansiktet!", 
+    "command":"next",
+    "btnName":"0_0"},
+
+    {"text":"Vad gör Kim?", 
+    "options":[
+        {"text":"Klämma finnen?",
+        "command":"set-prop squeezePimple true",
+        "newSrc": "Home/Bathroom/Main",
+        "btnName":"Kläm"},
+
+        {"text":"Lämna finnen?",
+        "command":"next",
+        "newSrc": "Home/Bathroom/Main",
+        "btnName":"Lämna"}
+    ]
+}
 ]

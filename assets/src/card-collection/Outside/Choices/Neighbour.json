@@ -1,0 +1,14 @@
+[
+    {"text":"(knack) (knack)", 
+    "command":"next",
+    "btnName": "Vänta..."},
+
+    {"text":"...", 
+    "command":"next",
+    "btnName": "Vänta lite till..."},
+
+    {"text": "\"Grannen är nog inte hemma\" tänker Kim", 
+    "command": "next",
+    "btnName": "\\_OwO_/",
+    "newSrc": "Outside/Main"}
+]

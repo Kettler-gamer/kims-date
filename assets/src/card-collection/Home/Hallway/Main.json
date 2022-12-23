@@ -1,9 +1,24 @@
 [
     {"text":"Hallen", 
     "options":[
-        {"text":"Gå ut"},
-        {"text":"Köket", "newSrc":"Home/Kitchen/Main", "command":"next", "btnName":"Gå"},
-        {"text":"Sovrum", "newSrc":"Home/Bedroom/Main", "command":"next", "btnName":"Gå"},
-        {"text":"Katt", "newSrc":"Home/Hallway/Choices/CatClap", "command":"set-prop faceScar cat", "btnName":"Klappa", "condition":"playerChoices.faceScar == undefined"}
+        {"text":"Dörr",
+        "newSrc":"Outside/Main", 
+        "command":"next", 
+        "btnName":"Gå ut"},
+
+        {"text":"Köket", 
+        "newSrc":"Home/Kitchen/Main", 
+        "command":"next", 
+        "btnName":"Gå"},
+
+        {"text":"Sovrum", 
+        "newSrc":"Home/Bedroom/Main", 
+        "command":"next", 
+        "btnName":"Gå"},
+
+        {"text":"Katt", "newSrc":"Home/Hallway/Choices/CatClap", 
+        "command":"set-prop faceScar cat", 
+        "btnName":"Klappa", 
+        "condition":"playerChoices.faceScar == undefined"}
     ]}
 ]

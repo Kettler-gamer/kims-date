@@ -1,0 +1,13 @@
+[
+    {"text":"Väl inne på restaurangen börjar han se efter sin dejt!", 
+    "command":"next", 
+    "btnName":"Leta"},
+
+    {"text":"Plötsligt såg han henne! Precis vid ett hörn satt hon och fick Kims ben att börja darra...", 
+    "command":"next", 
+    "btnName":"0_0"},
+
+    {"text":"Det var nu det gällde! Det var dags för Kim att gå från pojke till man!", 
+    "command":"next", 
+    "btnName":"Nu kör vi!"}
+]

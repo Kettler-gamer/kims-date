@@ -1,0 +1,20 @@
+[
+    {"text":"Ute",
+    "options":[
+        {"text": "Grannen", 
+        "command": "next",
+        "btnName": "Knacka på",
+        "newSrc": "Outside/Choices/Neighbour"},
+
+        {"text": "Blomsteraffären",
+        "command": "set-prop flower true",
+        "btnName": "Köp en blomma",
+        "newSrc":"Outside/Choices/Flower",
+        "condition":"playerChoices.flower == undefined"},
+
+        {"text": "Hem", 
+        "command": "next",
+        "btnName": "Gå hem",
+        "newSrc": "Home/Hallway/Main"}
+    ]}
+]

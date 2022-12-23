@@ -1,0 +1,24 @@
+[
+    {"text":"Första repliken", 
+    "options":[
+        {"text":"Du är tändstiftet som får min motor att gå igång!",
+        "command":"set-prop lineOne ignition",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/SecondLine"},
+
+        {"text":"Tjena kexet! Sitter du här och smular?",
+        "command":"set-prop lineOne cookie",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/SecondLine"},
+
+        {"text":"Hej!",
+        "command":"set-prop lineOne hey",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/SecondLine"},
+
+        {"text":"(hoppa runt som en gorilla)!",
+        "command":"set-prop lineOne gorilla",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/SecondLine"}
+    ]}
+]

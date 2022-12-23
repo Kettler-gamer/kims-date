@@ -4,6 +4,23 @@
         "command":"set-prop playedGame WoW", 
         "btnName":"Spela",
         "newSrc":"Home/Bedroom/Desk/Choices/PlayWow",
-        "condition": "playerChoices.playedGame == undefined"}
+        "condition": "playerChoices.playedGame == undefined"},
+
+        {"text":"Mobil", 
+        "command":"next", 
+        "btnName":"Använd",
+        "newSrc":"Home/Bedroom/Desk/Mobile/Main",
+        "condition":"playerChoices.tookPhone == undefined"},
+
+        {"text":"Raggningsrepliker", 
+        "command":"set-prop pickupLines true", 
+        "btnName":"Träna",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/FirstLine",
+        "condition":"playerChoices.pickupLines == undefined"},
+
+        {"text":"Sovrum", 
+        "command":"next", 
+        "btnName":"Gå",
+        "newSrc":"Home/Bedroom/Main"}
     ]}
 ]

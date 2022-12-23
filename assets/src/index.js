@@ -2,7 +2,7 @@ const pageCards = document.querySelector(".page-cards");
 const callsElement = document.querySelector(".calls");
 
 const playerChoices = {};
-const callsStartValue = 2;
+const callsStartValue = 30;
 let calls,
   onDate = false;
 

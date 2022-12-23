@@ -3,7 +3,7 @@
         {"text":"Dush",
         "command":"set-prop shower true",
         "btnName": "Dusha",
-        "condition":"playerChoices.clothes == undefined",
+        "condition":"playerChoices.clothes == undefined && playerChoices.shower == undefined",
         "newSrc": "Home/Bathroom/Choices/Shower"},
 
         {"text":"Tandborste",

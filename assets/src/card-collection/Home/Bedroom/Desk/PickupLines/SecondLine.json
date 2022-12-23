@@ -1,0 +1,24 @@
+[
+    {"text":"Andra repliken", 
+    "options":[
+        {"text":"Du är tändstiftet som får min motor att gå igång!",
+        "command":"set-prop lineTwo ignition",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
+
+        {"text":"Tjena kexet! Sitter du här och smular?",
+        "command":"set-prop lineTwo cookie",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
+
+        {"text":"Hej!",
+        "command":"set-prop lineTwo hey",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
+
+        {"text":"(hoppa runt som en gorilla)!",
+        "command":"set-prop lineTwo gorilla",
+        "btnName":"Välj",
+        "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"}
+    ]}
+]

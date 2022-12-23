@@ -1,0 +1,26 @@
+[
+    {"text":"Ringer Kims mamma...", 
+    "command":"next", 
+    "btnName":"Vänta..."},
+
+    {"text":"Mamma:Hallå?", 
+    "command":"next", 
+    "btnName":"Svara"},
+
+    {"text":"Kim:Hej mamma! Jag ska på dejt idag!", 
+    "command":"next", 
+    "btnName":":D"},
+
+    {"text":"Mamma: Nämen vad trevligt min son! Jag visste att du skulle hitta någon!", 
+    "command":"next", 
+    "btnName":":D"},
+
+    {"text":"Kim: Jag berättar sen hur det gick!", 
+    "command":"next", 
+    "btnName":";D"},
+
+    {"text":"Mamma: Lycka till!", 
+    "command":"next", 
+    "btnName":"Lägg på",
+    "newSrc":"Home/Bedroom/Desk/Mobile/Main"}
+]
