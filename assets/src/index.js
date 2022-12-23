@@ -1,6 +1,9 @@
 const pageCards = document.querySelector(".page-cards");
+const callsElement = document.querySelector(".calls");
 
 const playerChoices = {};
+const callsStartValue = 20;
+let calls;
 
 const cardList = [
   {
@@ -16,7 +19,7 @@ const cardList = [
   { text: "Hon heter Wilma.", command: "next", btnName: "Nästa" },
   {
     text: "Det är lördag morgon och Kim ska förbereda sig för dejten…",
-    command: "next",
+    command: "start",
     btnName: "Jag är redo!",
     newSrc: "Home/Bedroom/Main",
   },
@@ -78,6 +81,12 @@ function removeCards(cards) {
   for (let card of cards) {
     card.remove();
   }
+}
+
+function updateCalls() {
+  calls--;
+  calls = Math.max(calls, 0);
+  callsElement.textContent = calls;
 }
 
 (() => {
