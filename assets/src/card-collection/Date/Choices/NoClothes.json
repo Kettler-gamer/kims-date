@@ -1,0 +1,19 @@
+[
+    {"text": "När Kim kom fram till restaurangen de skulle träffas vid så upptäckte Kim att det var många människor som stirrade på honom...", 
+    "command":"next",
+    "btnName":"Skumt..."},
+
+    {"text":"Kim var medveten om att hanm hade en unik aura som brukade sprida sig i offentligheten men det här var annorlunda...",
+    "command":"next",
+    "btnName":"Väldigt skumt..."},
+
+    {"text": "En servitris går fram till Kim och börjar skrika och talar om för honom att hon har ringt polisen!",
+    "command":"next",
+    "btnName": "What!!"},
+
+    {"text": "Det var då Kim upptäckte att han hade glömt att ta på sig kläder!",
+    "command":"next",
+    "btnName": "Hoppsan..."},
+
+    {"text": "Kim hamnade i fängelset!"}
+]

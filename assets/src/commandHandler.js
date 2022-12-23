@@ -15,9 +15,17 @@ function handleCommand(event, card) {
       onStart();
       onNextCard(getCardsToRemove(), card);
       break;
+    case card.command.startsWith("conditions"):
+      checkConditions(card);
+      break;
     default:
       console.log("Unkown command: " + command);
   }
+}
+
+function goToDate() {
+  onDate = true;
+  onNextCard(getCardsToRemove(), { newSrc: "Date/Main" });
 }
 
 function getCardsToRemove() {
@@ -29,6 +37,17 @@ function getCardsToRemove() {
   }
 
   return list;
+}
+
+function checkConditions(card) {
+  const conditions = card.conditions;
+  const newSrcs = card.newSrcs;
+  for (let i = 0; i < conditions.length; i++) {
+    if (eval(conditions[i])) {
+      onNextCard(getCardsToRemove(), { newSrc: newSrcs[i] });
+    }
+  }
+  onNextCard(getCardsToRemove(), { newSrc: newSrcs[newSrcs.length - 1] });
 }
 
 function setProp(command) {

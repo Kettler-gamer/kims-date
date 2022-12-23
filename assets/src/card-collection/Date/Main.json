@@ -1,3 +1,12 @@
 [
-    {"text":"Kim skyndade sig till dejten!", "command":"next", "btnName":"Spring"}
+    {"text":"Kim skyndade sig till dejten!", 
+    "command":"conditions", 
+    "btnName":"Spring",
+    "conditions":[
+        "playerChoices.clothes == undefined"
+    ],
+    "newSrcs":[
+        "Date/Choices/NoClothes",
+        "Date/Choices/Clothes"
+    ]}
 ]

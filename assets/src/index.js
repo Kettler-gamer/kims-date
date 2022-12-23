@@ -2,8 +2,9 @@ const pageCards = document.querySelector(".page-cards");
 const callsElement = document.querySelector(".calls");
 
 const playerChoices = {};
-const callsStartValue = 20;
-let calls;
+const callsStartValue = 2;
+let calls,
+  onDate = false;
 
 const cardList = [
   {
@@ -32,6 +33,10 @@ function createCard(card, styleClass) {
   cardContainer.className =
     styleClass != undefined ? styleClass : "card swipe-card-in";
   if (card.options != undefined) {
+    if (calls == 0 && !onDate) {
+      goToDate();
+      return;
+    }
     for (let optionCard of card.options) {
       if (optionCard.condition != undefined && eval(optionCard.condition)) {
         createCard(optionCard, "card swipe-card-in option-card");
