@@ -1,0 +1,25 @@
+[
+    {"text": "Wilma blev helt förskräkt och rusade ner till golvet för att kolla hur det gick!",
+    "command":"next",
+    "btnName":"O_O"},
+
+    {"text": "Kim var helt borta, men hade fortfarande en puls så Wilma ringde ambulansen tillsammans med personalen.",
+    "command":"next",
+    "btnName":"..."},
+
+    {"text": "Efter några timmar vaknade Kim upp i en sjukhussäng och bredvid honom står hans mamma.",
+    "command":"next",
+    "btnName":"Mamma?"},
+
+    {"text": "Hon förklarade att Kim var undernärd och svimmade.",
+    "command":"next",
+    "btnName":"Kim skulle ha ätit frukost..."},
+
+    {"text": "Mamma:\"Men var nog bra att det blev såhär, den där Wilma är väldigt otrevlig. Jag försökte bestämma en ny träff mellan er men hon ville inte!\"",
+    "command":"next",
+    "btnName":"What?"},
+
+    {"text": "Kim blev riktigt sur på sin mamma...",
+    "command":"retry",
+    "btnName":"Försök igen?"}
+]

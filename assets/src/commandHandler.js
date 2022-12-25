@@ -18,6 +18,9 @@ function handleCommand(event, card) {
     case card.command.startsWith("conditions"):
       checkConditions(card);
       break;
+    case card.command.startsWith("retry"):
+      onRetry();
+      break;
     default:
       console.log("Unkown command: " + command);
   }
@@ -37,6 +40,16 @@ function getCardsToRemove() {
   }
 
   return list;
+}
+
+function onRetry() {
+  onDate = false;
+  calls = callsStartValue + 1;
+  for (let choice in playerChoices) {
+    playerChoices[choice] = undefined;
+  }
+  onNextCard(getCardsToRemove(), { newSrc: "Home/Bedroom/Main" });
+  updateCalls();
 }
 
 function checkConditions(card) {

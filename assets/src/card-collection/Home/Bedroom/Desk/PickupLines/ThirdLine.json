@@ -1,23 +1,23 @@
 [
     {"text":"Tredje repliken", 
     "options":[
-        {"text":"Du är tändstiftet som får min motor att gå igång!",
-        "command":"set-prop lineThree ignition",
+        {"text": "Ska vi gå hem till dig eller hem till mig?",
+        "command":"set-prop lineThree home",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/Main"},
 
-        {"text":"Tjena kexet! Sitter du här och smular?",
-        "command":"set-prop lineThree cookie",
+        {"text": "Ska vi hem till mig och titta på min väckarklocka?",
+        "command":"set-prop lineThree alarmClock",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/Main"},
 
-        {"text":"Hej!",
-        "command":"set-prop lineThree hey",
+        {"text": "Jag har bara två veckor kvar att leva. Vill du uppfylla min sista önskan?",
+        "command":"set-prop lineThree lastWish",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/Main"},
 
-        {"text":"(hoppa runt som en gorilla)!",
-        "command":"set-prop lineThree gorilla",
+        {"text": "Är du redo för akt 3?",
+        "command":"set-prop lineThree act3",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/Main"}
     ]}

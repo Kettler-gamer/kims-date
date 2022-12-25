@@ -8,6 +8,15 @@
     "btnName":"0_0"},
 
     {"text":"Det var nu det gällde! Det var dags för Kim att gå från pojke till man!", 
-    "command":"next", 
-    "btnName":"Nu kör vi!"}
+    "command":"conditions", 
+    "btnName":"Nu kör vi!",
+    "conditions":[
+        "playerChoices.food == undefined",
+        "playerChoices.lineOne == undefined"
+    ],
+    "newSrcs":[
+        "Date/Clothes/NoFood/Main",
+        "Date/Clothes/NoLines/LineOne",
+        "Date/Clothes/Food/Main"
+    ]}
 ]

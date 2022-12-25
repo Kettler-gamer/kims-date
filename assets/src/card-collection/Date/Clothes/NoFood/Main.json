@@ -1,0 +1,12 @@
+[
+    {"text":"Plötsligt ramlade Kim ner på golvet, Han slog sitt huvud i kanten på bordet.",
+    "command":"conditions",
+    "btnName":"Aj...",
+    "conditions":[
+        "playerChoices.squeezePimple == undefined"
+    ],
+    "newSrcs":[
+        "Date/Clothes/NoFood/NoSqueezedPimple",
+        "Date/Clothes/NoFood/SqueezedPimple"
+    ]}
+]

@@ -1,23 +1,23 @@
 [
     {"text":"Andra repliken", 
     "options":[
-        {"text":"Du är tändstiftet som får min motor att gå igång!",
-        "command":"set-prop lineTwo ignition",
+        {"text":"Du är som solen. Jag behöver dig i mitt liv, det fullkomligt strålar om dig och det är som att jag dras till dig.",
+        "command":"set-prop lineTwo sun",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
 
-        {"text":"Tjena kexet! Sitter du här och smular?",
-        "command":"set-prop lineTwo cookie",
+        {"text":"Vet du vad som har 150 tänder och håller tillbaka ett stort odjur? Min gylf.",
+        "command":"set-prop lineTwo fly",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
 
-        {"text":"Hej!",
-        "command":"set-prop lineTwo hey",
+        {"text":"Är du ett trådlöst nätverk? För jag känner en viss connection.",
+        "command":"set-prop lineTwo connection",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"},
 
-        {"text":"(hoppa runt som en gorilla)!",
-        "command":"set-prop lineTwo gorilla",
+        {"text":"Är du trött i benen? Du har nämligen vandrat runt i mina tankar hela dagen.",
+        "command":"set-prop lineTwo wandering",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"}
     ]}

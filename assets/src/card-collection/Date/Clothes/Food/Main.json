@@ -1,0 +1,33 @@
+[
+    {"text":"Vad gör Kim?", 
+    "options":[
+        {"text": "Blomma",
+        "command":"set-prop gaveFlower true",
+        "btnName": "Ge",
+        "condition":"playerChoices.flower == \"true\""},
+
+        {"text":"Du är tändstiftet som får min motor att gå igång!",
+        "command":"next",
+        "btnName":"Säg",
+        "newSrc":"",
+        "condition": "playerChoices.lineOne == \"ignition\""},
+
+        {"text":"Tjena kexet! Sitter du här och smular?",
+        "command":"set-prop lineOne cookie",
+        "btnName":"Säg",
+        "newSrc":"",
+        "condition": "playerChoices.lineOne == \"cookie\""},
+
+        {"text":"Hej!",
+        "command":"set-prop lineOne hey",
+        "btnName":"Säg",
+        "newSrc":"",
+        "condition": "playerChoices.lineOne == \"hey\""},
+
+        {"text":"(hoppa runt som en gorilla)!",
+        "command":"set-prop lineOne gorilla",
+        "btnName":"Gör",
+        "newSrc":"",
+        "condition": "playerChoices.lineOne == \"gorilla\""}
+    ]}
+]

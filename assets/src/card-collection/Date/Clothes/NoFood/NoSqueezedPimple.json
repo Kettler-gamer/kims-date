@@ -1,0 +1,21 @@
+[
+    {"text": "Smällen slog precis vid hans finne så det sprutade ut talg, rakt på Wilmas ansikte!",
+    "command":"next",
+    "btnName":"O_O"},
+
+    {"text": "Wilma blev omedelbart äcklad och sprang in på toaletten för att tvätta sig!",
+    "command":"next",
+    "btnName":"O_O"},
+
+    {"text": "Kim låg på golvet helt medvetslös och personalen kallade på ambulans.",
+    "command":"next",
+    "btnName":"..."},
+
+    {"text": "Efter några timmar vaknade Kim upp på ett sjukhus och personalen förklarade för honom att han var undernärd.",
+    "command":"next",
+    "btnName":"Kim skulle ha ätit frukost."},
+
+    {"text": "Kim kände sig dum...",
+    "command":"retry",
+    "btnName":"Försök igen?"}
+]

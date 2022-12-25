@@ -15,5 +15,7 @@
     "command":"next",
     "btnName": "Hoppsan..."},
 
-    {"text": "Kim hamnade i fängelset och fick aldrig chansen att träffa Wilma..."}
+    {"text": "Kim hamnade i fängelset och fick aldrig chansen att träffa Wilma...",
+    "command":"retry",
+    "btnName":"Försök igen?"}
 ]
