@@ -1,0 +1,31 @@
+[
+    { 
+    "text": "När Kim kom fram till Wilma så möttes deras blickar varandra.",
+    "command":"next",
+    "btnName":"0w0" },
+
+    { 
+    "text": "Wilma log och väntade på att Kim skulle säga något spektakulärt!",
+    "command":"next",
+    "btnName":":O" },
+
+    { 
+    "text": "Men Kim blev stum. Han stod och försökte få ut något ord från munnen men det gick inte. Tankarna forsade runt i huvudet och han kunde inte komma på vad han skulle säga.",
+    "command":"next",
+    "btnName":":|" },
+
+    { 
+    "text": "Det var då han insåg att han skulle ha förberett några raggninsrepliker innan han gick på dejten...",
+    "command":"next",
+    "btnName":";|" },
+
+    { 
+    "text": "Wilmas leende ändrades till en besviken suck. Hon reste sig och lämnade restaurangen, sur över att ha slösat sin tid!",
+    "command":"next",
+    "btnName":";|" },
+
+    { 
+    "text": "Kim blev dissad...",
+    "command":"retry",
+    "btnName":"Försök igen?" }
+]

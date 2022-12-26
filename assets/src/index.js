@@ -33,7 +33,7 @@ function createCard(card, styleClass) {
   cardContainer.className =
     styleClass != undefined ? styleClass : "card swipe-card-in";
   if (card.options != undefined) {
-    if (calls == 0 && !onDate) {
+    if (calls == 0 && !onDate && card.ignoreLastCall == undefined) {
       goToDate();
       return;
     }

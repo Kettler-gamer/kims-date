@@ -20,5 +20,6 @@
         "command":"set-prop lineThree act3",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/Main"}
-    ]}
+    ],
+    "ignoreLastCall":"true"}
 ]

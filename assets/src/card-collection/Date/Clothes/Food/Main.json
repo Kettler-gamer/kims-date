@@ -9,25 +9,25 @@
         {"text":"Du är tändstiftet som får min motor att gå igång!",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"",
+        "newSrc":"Date/Clothes/Food/Choices/LineOne/Ignition",
         "condition": "playerChoices.lineOne == \"ignition\""},
 
         {"text":"Tjena kexet! Sitter du här och smular?",
         "command":"set-prop lineOne cookie",
         "btnName":"Säg",
-        "newSrc":"",
+        "newSrc":"Date/Clothes/Food/Choices/LineOne/Cookie",
         "condition": "playerChoices.lineOne == \"cookie\""},
 
         {"text":"Hej!",
         "command":"set-prop lineOne hey",
         "btnName":"Säg",
-        "newSrc":"",
+        "newSrc":"Date/Clothes/Food/Choices/LineOne/Hey",
         "condition": "playerChoices.lineOne == \"hey\""},
 
         {"text":"(hoppa runt som en gorilla)!",
         "command":"set-prop lineOne gorilla",
         "btnName":"Gör",
-        "newSrc":"",
+        "newSrc":"Date/Clothes/Food/Choices/Gorilla/Main",
         "condition": "playerChoices.lineOne == \"gorilla\""}
     ]}
 ]

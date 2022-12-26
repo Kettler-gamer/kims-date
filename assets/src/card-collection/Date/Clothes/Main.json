@@ -12,11 +12,11 @@
     "btnName":"Nu kör vi!",
     "conditions":[
         "playerChoices.food == undefined",
-        "playerChoices.lineOne == undefined"
+        "playerChoices.pickupLines == undefined && playerChoices.flower == undefined"
     ],
     "newSrcs":[
         "Date/Clothes/NoFood/Main",
-        "Date/Clothes/NoLines/LineOne",
+        "Date/Clothes/Food/NoLines",
         "Date/Clothes/Food/Main"
     ]}
 ]

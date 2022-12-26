@@ -20,5 +20,6 @@
         "command":"set-prop lineTwo wandering",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/ThirdLine"}
-    ]}
+    ],
+    "ignoreLastCall":"true"}
 ]

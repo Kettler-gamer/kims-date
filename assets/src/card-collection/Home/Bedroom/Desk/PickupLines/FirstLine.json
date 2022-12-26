@@ -20,5 +20,6 @@
         "command":"set-prop lineOne gorilla",
         "btnName":"Välj",
         "newSrc":"Home/Bedroom/Desk/PickupLines/SecondLine"}
-    ]}
+    ],
+    "ignoreLastCall":"true"}
 ]
