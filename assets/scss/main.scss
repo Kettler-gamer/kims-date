@@ -1,6 +1,13 @@
+@use "./abstract/vars" as *;
 @use "./pages/card";
 
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, $CGray, $CCoolGray, $CGray);
+    height: 110vh;
+    color: $CIvory;
 }

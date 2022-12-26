@@ -1,3 +1,5 @@
+@use "../abstract/vars" as *;
+
 .calls{
     text-align: center;
 }
@@ -10,7 +12,9 @@
     justify-content: center;
     .card{
         position: fixed;
-        border: solid 1px black;
+        border: solid 3px $CGray;
+        background-color: $CCoolGray;
+        font-weight: 1000;
         border-radius: 1em;
         width: 15em;
         height: 25em;
@@ -26,9 +30,17 @@
             width: 80%;
         }
         button{
+            background-color: $CGray;
+            color: $CIvory;
+            border: solid 2px $CBlueGray;
+            border-radius: 0.5em;
             margin: auto;
             width: 8em;
             padding: 1em 2em;
+            transition: all 0.1s;
+        }
+        button:hover{
+            background-color: $CCoolGray;
         }
     }
     .option-card{
@@ -36,7 +48,6 @@
         height: 15em;
         width: 35%;
         z-index: 5;
-        background-color: white;
     }
     .option-card:nth-child(1){
         top: -2.5em;

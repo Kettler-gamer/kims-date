@@ -11,7 +11,9 @@
 }
 .page-cards .card {
   position: fixed;
-  border: solid 1px black;
+  border: solid 3px #746c70;
+  background-color: #4e4f50;
+  font-weight: 1000;
   border-radius: 1em;
   width: 15em;
   height: 25em;
@@ -28,16 +30,23 @@
   width: 80%;
 }
 .page-cards .card button {
+  background-color: #746c70;
+  color: #e2ded0;
+  border: solid 2px #647c90;
+  border-radius: 0.5em;
   margin: auto;
   width: 8em;
   padding: 1em 2em;
+  transition: all 0.1s;
+}
+.page-cards .card button:hover {
+  background-color: #4e4f50;
 }
 .page-cards .option-card {
   position: absolute;
   height: 15em;
   width: 35%;
   z-index: 5;
-  background-color: white;
 }
 .page-cards .option-card:nth-child(1) {
   top: -2.5em;
@@ -116,4 +125,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #746c70, #4e4f50, #746c70);
+  height: 110vh;
+  color: #e2ded0;
 }/*# sourceMappingURL=main.css.map */
