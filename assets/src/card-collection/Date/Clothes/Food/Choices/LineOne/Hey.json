@@ -1,0 +1,14 @@
+[
+    {"text":"Kim:\"Hej!\"",
+    "command":"next",
+    "btnName":":D"},
+
+    {"text":"Wilma:\"Hej hej!\"",
+    "command":"next",
+    "btnName":":D"},
+
+    {"text":"Efter att Kim stått och tittat på Wilma i vad som känns som fem år, så sätter han sig ner vid deras bord.",
+    "command":"next",
+    "btnName":":D",
+    "newSrc":"Date/Clothes/Food/Choices/OrderOne"}
+]

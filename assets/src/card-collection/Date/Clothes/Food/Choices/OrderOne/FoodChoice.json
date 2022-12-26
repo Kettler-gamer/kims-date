@@ -1,0 +1,24 @@
+[
+    {"text":"Välj mat",
+    "options":[
+        {"text":"Somrig snigelsoppa",
+        "command":"set-prop orderOne snailSoup",
+        "btnName":"Välj",
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/SnailSoup"},
+        
+        {"text":"",
+        "command":"set-prop orderOne ",
+        "btnName":"Välj",
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"},
+
+        {"text":"",
+        "command":"set-prop orderOne ",
+        "btnName":"Välj",
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"},
+
+        {"text":"",
+        "command":"set-prop orderOne ",
+        "btnName":"Välj",
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"}
+    ]}
+]

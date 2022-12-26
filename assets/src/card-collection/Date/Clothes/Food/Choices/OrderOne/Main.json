@@ -1,0 +1,16 @@
+[
+    {"text":"Servitrisen kommer förbi och delar ut menyn. Kim och Wilma börjar bläddra i den och ser efter vad de är sugna på!",
+    "command":"next",
+    "btnName":"Nästa"},
+
+    {"text":"Wilma:\"Vad är du sugen på?\"",
+    "command":"next",
+    "btnName":"Nästa",
+    "conditions":[
+        "playerChoices.food == banana"
+    ],
+    "newSrcs": [
+        "Date/Clothes/Food/Choices/Puke",
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoice"
+    ]}
+]
