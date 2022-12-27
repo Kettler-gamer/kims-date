@@ -4,10 +4,10 @@
     "btnName":"Nästa"},
 
     {"text":"Wilma:\"Vad är du sugen på?\"",
-    "command":"next",
+    "command":"conditions",
     "btnName":"Nästa",
     "conditions":[
-        "playerChoices.food == banana"
+        "playerChoices.food == \"banana\""
     ],
     "newSrcs": [
         "Date/Clothes/Food/Choices/Puke",

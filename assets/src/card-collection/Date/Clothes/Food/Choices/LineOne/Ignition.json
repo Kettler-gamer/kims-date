@@ -1,0 +1,23 @@
+[
+    {"text":"Kim:\"Du är tändstiftet som får min motor att gå igång!\"",
+    "command":"next",
+    "btnName":"Där satt den!"},
+
+    {"text":"Wilma spänner upp sina ögon större än en hök! Hon verkar chockad...",
+    "command":"next",
+    "btnName":"O_O"
+    },
+
+    {"text":"Wilma:\"Du har smörjt upp motorn ordentligt ser jag!\"",
+    "command":"next",
+    "btnName":"Yes!"},
+
+    {"text":"Kim:\"Det kan du ge dig på att jag har!\"",
+    "command":"next",
+    "btnName":"Såklart!"},
+
+    {"text":"Efter Kims lyckade första replik sätter han sig ner vid bordet och känner sig som en kung!",
+    "command":"next",
+    "btnName":"Oh yeah!",
+    "newSrc":"Date/Clothes/Food/Choices/OrderOne/Main"}
+]

@@ -6,28 +6,28 @@
         "btnName": "Ge",
         "condition":"playerChoices.flower == \"true\""},
 
-        {"text":"Du är tändstiftet som får min motor att gå igång!",
+        {"text":"",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Ignition",
-        "condition": "playerChoices.LineTwo == \"ignition\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
+        "condition": "playerChoices.LineTwo == \"\""},
 
-        {"text":"Tjena kexet! Sitter du här och smular?",
-        "command":"set-prop LineTwo cookie",
+        {"text":"",
+        "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Cookie",
-        "condition": "playerChoices.LineTwo == \"cookie\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
+        "condition": "playerChoices.LineTwo == \"\""},
 
-        {"text":"Hej!",
-        "command":"set-prop LineTwo hey",
+        {"text":"",
+        "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Hey",
-        "condition": "playerChoices.LineTwo == \"hey\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
+        "condition": "playerChoices.LineTwo == \"\""},
 
-        {"text":"(hoppa runt som en gorilla)!",
-        "command":"set-prop LineTwo gorilla",
-        "btnName":"Gör",
-        "newSrc":"Date/Clothes/Food/Choices/Gorilla/Main",
-        "condition": "playerChoices.LineTwo == \"gorilla\""}
+        {"text":"",
+        "command":"next",
+        "btnName":"Säg",
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
+        "condition": "playerChoices.LineTwo == \"\""}
     ]}
 ]

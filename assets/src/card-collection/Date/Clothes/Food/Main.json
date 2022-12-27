@@ -33,7 +33,7 @@
         {"text":"Toalett!",
         "command":"next",
         "btnName":"Gör dina behov",
-        "newSrc":"Date/Clothes/Food/Choices/Gorilla/Main",
+        "newSrc":"Date/Clothes/Food/Choices/ToiletVisit",
         "condition": "playerChoices.toilet == undefined"}
     ]}
 ]

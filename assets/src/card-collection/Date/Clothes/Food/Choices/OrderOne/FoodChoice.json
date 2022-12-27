@@ -6,19 +6,19 @@
         "btnName":"Välj",
         "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/SnailSoup"},
         
-        {"text":"",
-        "command":"set-prop orderOne ",
+        {"text":"Hummer",
+        "command":"set-prop orderOne lobster",
         "btnName":"Välj",
-        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"},
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/Lobster"},
 
-        {"text":"",
-        "command":"set-prop orderOne ",
+        {"text":"Havregrynsgröt",
+        "command":"set-prop orderOne oatmeal",
         "btnName":"Välj",
-        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"},
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/Oatmeal"},
 
-        {"text":"",
-        "command":"set-prop orderOne ",
+        {"text":"Tacos",
+        "command":"set-prop orderOne taco",
         "btnName":"Välj",
-        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/"}
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/taco"}
     ]}
 ]

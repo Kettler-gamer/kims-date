@@ -28,6 +28,7 @@ function handleCommand(event, card) {
 
 function goToDate() {
   onDate = true;
+  callsElement.style.display = "none";
   onNextCard(getCardsToRemove(), { newSrc: "Date/Main" });
 }
 

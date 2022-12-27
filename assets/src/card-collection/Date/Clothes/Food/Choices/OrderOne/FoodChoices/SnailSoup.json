@@ -1,0 +1,26 @@
+[
+    {"text":"Kim:\"Jag kör nog på en somrig snigelsoppa!\"",
+    "command":"next",
+    "btnName":"Mums!"},
+
+    {"text":"Wilma ser lite fundersamt på Kim....",
+    "command":"next",
+    "btnName":"Var det ett klokt val?"},
+
+    {"text":"Wilma:\"Okej....ehm...intressant.....jag tar nog en taco\"",
+    "command":"next",
+    "btnName":"O-O"},
+
+    {"text":"Kim:\"Klassiker! Mycket bra val! Själv gillar jag att testa lite udda grejer som man inte brukar ta\"",
+    "command":"next",
+    "btnName":"Hoppas jag räddade det!"},
+
+    {"text":"Wilma:\"Jaha okej! ahem det är väl bra...\"",
+    "command":"next",
+    "btnName":"Mhmmm!"},
+
+    {"text":"Wilma ser fortarande lite fundersam ut men Kim är nöjd med sitt val!",
+    "command":"next",
+    "btnName":"Det blir nog gott!",
+    "newSrc":""}
+]

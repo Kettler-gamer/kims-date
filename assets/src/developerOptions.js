@@ -2,7 +2,7 @@ const choices = [
   { name: "clothes", value: "costume" },
   { name: "food", value: "sandwich" },
   { name: "pickupLines", value: "true" },
-  { name: "lineOne", value: "cookie" },
+  { name: "lineOne", value: "ignition" },
 ];
 
 function setPlayerChoices() {
