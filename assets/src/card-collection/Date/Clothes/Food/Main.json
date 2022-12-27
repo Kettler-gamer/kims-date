@@ -28,6 +28,12 @@
         "command":"next",
         "btnName":"Gör",
         "newSrc":"Date/Clothes/Food/Choices/Gorilla/Main",
-        "condition": "playerChoices.lineOne == \"gorilla\""}
+        "condition": "playerChoices.lineOne == \"gorilla\""},
+
+        {"text":"Toalett!",
+        "command":"next",
+        "btnName":"Gör dina behov",
+        "newSrc":"Date/Clothes/Food/Choices/Gorilla/Main",
+        "condition": "playerChoices.toilet == undefined"}
     ]}
 ]

@@ -7,6 +7,14 @@
     "command":"next",
     "btnName":":D"},
 
+    {"text":"Kim:...",
+    "command":"next",
+    "btnName":"O-O"},
+
+    {"text":"Wilma:...",
+    "command":"next",
+    "btnName":"-_-"},
+
     {"text":"Efter att Kim stått och tittat på Wilma i vad som känns som fem år, så sätter han sig ner vid deras bord.",
     "command":"next",
     "btnName":":D",

@@ -1,0 +1,33 @@
+[
+    {"text":"Kim:\"Tjenare kexet! Sitter du här och smular?\"", 
+    "command":"next",
+    "btnName":"Där satt den!"},
+
+    {"text":"Wilma börjar himla med ögonen. Hon verkar inte särskilt imponerad...", 
+    "command":"next",
+    "btnName":"o_O"},
+
+    {"text":"Wilma:\"Ja och du får plocka upp smulorna åt mig!\"", 
+    "command":"next",
+    "btnName":":O"},
+
+    {"text":"Kim försökte säga något men Wilma hade redan ställt sig upp och börjat gå ut från restaurangen.", 
+    "command":"next",
+    "btnName":":("},
+
+    {"text":"Kim kunde inte begripa det, han hade ju övat in den här repliken, den skulle bara funka!", 
+    "command":"next",
+    "btnName":"o-o"},
+
+    {"text":"En man inne på restaurangen vittnade hela incidenten och gick fram till Kim...", 
+    "command":"next",
+    "btnName":"Nästa"},
+
+    {"text":"Man: Jag har sett många raggningsförsök i mina dagar men det här måste vara det sämsta jag har sett i mitt liv!", 
+    "command":"next",
+    "btnName":"Nästa"},
+
+    {"text":"Kim kände sig förnedrad!", 
+    "command":"retry",
+    "btnName":"Försök igen?"}
+]
