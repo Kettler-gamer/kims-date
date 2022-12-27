@@ -1,0 +1,32 @@
+[
+    {"text":"Kim:\"Jag kör på hummer jag!\"",
+    "command":"next",
+    "btnName":"Slår på stort!"},
+
+    {"text":"Wilma tappar nästan hakan...",
+    "command":"next",
+    "btnName":"😮"},
+
+    {"text":"Wilma:\"Ojojoj...slår på stort! Dem är inte billiga! Jag tar en billigare taco\"",
+    "command":"next",
+    "btnName":"👌"},
+
+    {"text":"Kim:\"Jag äter hummer till fukost, lunch och middag vettu!\"",
+    "command":"next",
+    "btnName":"😉"},
+
+    {"text":"Wilma:\"Jaså....hmmmmm...\"",
+    "command":"conditions",
+    "btnName":"..."},
+
+    {"text":"Servitrisen tar emot beställningarna och nu väntar Kim och Wilma på maten...",
+    "command":"conditions",
+    "btnName":"😋",
+    "conditions":[
+        "playerChoices.clothes != \"costume\""
+    ],
+    "newSrcs":[
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Costume",
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Other"
+    ]}
+]

@@ -1,0 +1,33 @@
+[
+    {"text":"Plötsligt börjar Kim känna spänningar i magen...",
+    "command":"next",
+    "btnName":"🤢"},
+
+    {"text":"Han spyr rakt ut på bordet och det forsar som ett vattenfall!",
+    "command":"next",
+    "btnName":"🤮"},
+
+    {"text":"Wilma blir så äcklad att hon också börjar spy!",
+    "command":"next",
+    "btnName":"🤮🤮"},
+
+    {"text":"Sedan började servitrisen också spy!",
+    "command":"next",
+    "btnName":"🤮🤮🤮"},
+
+    {"text":"Det startades en kedjereaktion där alla i restaurangen började spy och lokalen förvandlades till en bassäng!",
+    "command":"next",
+    "btnName":"🤮🤮🤮"},
+
+    {"text":"Till slut började ytterdörren vika sig. Då forsade all spya ut genom dörren ut på gatan och alla följde med i en rusande fart!",
+    "command":"next",
+    "btnName":"🤮🤮🤮"},
+
+    {"text":"Kim och Wilma spolades ända ut till stranden, ut i vattnet och började flyta iväg långt ut!",
+    "command":"next",
+    "btnName":"🫣"},
+
+    {"text":"Eftersom Kim inte kan simma så sjönk han ner till havets botten, och Wilma syntes aldrig till igen!",
+    "command":"retry",
+    "btnName":"Försök igen?"}
+]
