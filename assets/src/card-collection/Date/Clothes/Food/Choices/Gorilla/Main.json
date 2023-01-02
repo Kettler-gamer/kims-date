@@ -1,3 +1,24 @@
 [
-    {"text":""}
+    {"text":"Kim böjer sig fram, sätter knogarna på golvet och går ner på huk!",
+    "btnName":"Nu kör vi!",
+    "command": "next"},
+
+    {"text":"Kim börjar gå runt i restaurangen som en gorilla och ökar farten lite grann i taget.",
+    "btnName":"🦍",
+    "command": "next"},
+
+    {"text":"Kim får syn på taklampor som skulle kunna funka som lianer!",
+    "btnName":"😀",
+    "command": "next"},
+
+    {"text":"Han hoppar upp och greppar tag i en taklampa och försöker svinga sig till nästa taklampa!",
+    "btnName":"😀",
+    "command": "conditions",
+    "conditions":[
+        "playerChoices.clothes == \"skunk\""
+    ],
+    "newSrcs":[
+        "Date/Clothes/Food/Choices/Gorilla/Skunk",
+        "Date/Clothes/Food/Choices/Gorilla/Fall"
+    ]}
 ]

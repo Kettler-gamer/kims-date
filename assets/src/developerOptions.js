@@ -1,8 +1,8 @@
 const choices = [
-  { name: "clothes", value: "costume" },
+  { name: "clothes", value: "skunk" },
   { name: "food", value: "sandwich" },
   { name: "pickupLines", value: "true" },
-  { name: "lineOne", value: "ignition" },
+  { name: "lineOne", value: "gorilla" },
 ];
 
 function setPlayerChoices() {

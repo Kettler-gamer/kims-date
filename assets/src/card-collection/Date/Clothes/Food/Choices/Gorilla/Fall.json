@@ -1,0 +1,21 @@
+[
+    {"text": "Men Kim fastnar med sina byxor i taklampan och dem dras av precis innan han ramlar ner pladask på golvet...",
+    "btnName": "Ojdå...",
+    "command": "next"},
+
+    {"text": "Kims huvud skakar men i fjärran ser han Wilma resa sig upp och gå mot utgången...",
+    "btnName": "😢",
+    "command": "next"},
+
+    {"text": "Personalen tar tag i Kim och kastar ut honom på baksidan av restaurangen bland några uteliggare.",
+    "btnName": "😒",
+    "command": "next"},
+
+    {"text": "Kim blir erbjuden en sup som han tröstsamt tar emot...",
+    "btnName": "😐",
+    "command": "next"},
+
+    {"text": "Sen dess har Kim varit en uteliggare...",
+    "btnName": "Försök igen?",
+    "command": "retry"}
+]

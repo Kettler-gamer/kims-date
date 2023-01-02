@@ -1,0 +1,49 @@
+[
+    {"text": "Kim lyckas greppa den andra taklampan och börjar faktiskt se ut som en gorilla trots att han har skunkpäls på sig!",
+    "command": "next",
+    "btnName": "😯"},
+
+    {"text": "Han landar på sitt bord och ser Wilma djupt i ögonen...",
+    "command": "next",
+    "btnName": "😐"},
+
+    {"text": "Wilma ger Kim en undergiven blick och ska precis börja slita av sig alla kläder för att påbörja en parningsritual!",
+    "command": "next",
+    "btnName": "😀"},
+
+    {"text": "Då plötsligt...som en blixt från en klar himmel...vaknar Kim upp i en cell!",
+    "command": "next",
+    "btnName": "😯"},
+
+    {"text": "Cellen var lika smal som Kims garderob och han börjar se sig omkring...",
+    "command": "next",
+    "btnName": "😕"},
+
+    {"text": "Kim ser en säkerhetskamera på väggen som är riktad rakt mot honom!",
+    "command": "next",
+    "btnName": "😯"},
+
+    {"text": "Plötsligt kommer ett gäng människor i vita rockar, de ser ut som vetenskapsmän!",
+    "command": "next",
+    "btnName": "😯"},
+
+    {"text": "Dem står och stirrar på Kim och skriver ner saker i sina anteckningar...",
+    "command": "next",
+    "btnName": "😯"},
+
+    {"text": "Kim börjar bli irriterad och försöker prata...",
+    "command": "next",
+    "btnName": "😠"},
+
+    {"text": "Kim:\"(hooah ... hoooaah .... HOOOOAAAHH)\"",
+    "command": "next",
+    "btnName": "🦍"},
+
+    {"text": "Va?! vad är det här? Kim kan inte prata! Det kommer bara ut gorilla ljud från hans mun!",
+    "command": "next",
+    "btnName": "😱"},
+
+    {"text": "Kim måste ha blivit galen...",
+    "command": "retry",
+    "btnName": "Försök igen?"}
+]

@@ -1,0 +1,21 @@
+[
+    {"text":"Kim:\"Jag tar en skål med gröt!\"",
+    "command":"next",
+    "btnName":"Snåljåp"},
+
+    {"text":"Wilma tittar på Kim med böjda ögonbryn",
+    "command":"next",
+    "btnName":"😮"},
+
+    {"text":"Wilma: \"Gröt? Det har jag aldrig testat! Är det gott?\"",
+    "command":"next",
+    "btnName":"😮"},
+
+    {"text":"Kim: \"Jajamen!\"",
+    "command":"next",
+    "btnName":"😋"},
+
+    {"text":"Wilma: \"Okej! Jamen då tar jag det också!\"",
+    "command":"next",
+    "btnName":"😊"}
+]
