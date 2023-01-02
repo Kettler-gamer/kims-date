@@ -1,0 +1,18 @@
+[
+    {"text": "Kim:\"Jag kör på en klassiker! Tacos!\"",
+    "btnName": "Gött!",
+    "command":"next"},
+
+    {"text": "Wilma skrattar lite lätt!",
+    "btnName": "😀",
+    "command":"next"},
+
+    {"text": "Wilma:\"Jag tar det jag med!\"",
+    "btnName": "😀",
+    "command":"next"},
+
+    {"text": "Servitrisen tar emot beställningarna och tar med sig menyerna!",
+    "btnName": "😋",
+    "command":"next",
+    "newSrc":"Date/Clothes/Food/Main2"}
+]

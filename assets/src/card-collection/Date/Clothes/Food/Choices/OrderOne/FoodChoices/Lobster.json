@@ -23,10 +23,16 @@
     "command":"conditions",
     "btnName":"😋",
     "conditions":[
-        "playerChoices.clothes != \"costume\""
+        "playerChoices.clothes == \"costume\"",
+        "playerChoices.clothes == \"skunk\"",
+        "playerChoices.clothes == \"hoodie\"",
+        "playerChoices.clothes == \"bath\""
     ],
     "newSrcs":[
         "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Costume",
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Skunk",
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Hoodie",
+        "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Bath",
         "Date/Clothes/Food/Choices/OrderOne/FoodChoices/LobsterAlley/Other"
     ]}
 ]

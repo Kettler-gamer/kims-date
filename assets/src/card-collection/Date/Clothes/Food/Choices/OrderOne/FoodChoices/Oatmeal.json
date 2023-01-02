@@ -7,15 +7,20 @@
     "command":"next",
     "btnName":"😮"},
 
-    {"text":"Wilma: \"Gröt? Det har jag aldrig testat! Är det gott?\"",
+    {"text":"Wilma:\"Gröt? Det har jag aldrig testat! Är det gott?\"",
     "command":"next",
     "btnName":"😮"},
 
-    {"text":"Kim: \"Jajamen!\"",
+    {"text":"Kim:\"Jajamen!\"",
     "command":"next",
     "btnName":"😋"},
 
-    {"text":"Wilma: \"Okej! Jamen då tar jag det också!\"",
+    {"text":"Wilma:\"Okej! Jamen då tar jag det också!\"",
     "command":"next",
-    "btnName":"😊"}
+    "btnName":"😊"},
+
+    {"text": "Servitrisen tar emot beställningarna och tar med sig menyerna!",
+    "btnName": "😋",
+    "command":"next",
+    "newSrc":"Date/Clothes/Food/Main2"}
 ]

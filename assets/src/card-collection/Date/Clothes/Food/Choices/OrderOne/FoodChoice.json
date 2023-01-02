@@ -19,6 +19,6 @@
         {"text":"Tacos",
         "command":"set-prop orderOne taco",
         "btnName":"Välj",
-        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/taco"}
+        "newSrc":"Date/Clothes/Food/Choices/OrderOne/FoodChoices/Taco"}
     ]}
 ]

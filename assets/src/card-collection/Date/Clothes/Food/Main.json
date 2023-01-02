@@ -4,6 +4,7 @@
         {"text": "Blomma",
         "command":"set-prop gaveFlower true",
         "btnName": "Ge",
+        "newSrc": "Date/Clothes/Food/Choices/Flower",
         "condition":"playerChoices.flower == \"true\""},
 
         {"text":"Du är tändstiftet som får min motor att gå igång!",
