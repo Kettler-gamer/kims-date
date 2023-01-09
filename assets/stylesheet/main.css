@@ -4,13 +4,14 @@
 
 .page-cards {
   position: relative;
-  margin-top: -3em;
   width: 100%;
   display: flex;
   justify-content: center;
+  max-width: 800px;
+  margin: -3em auto 0 auto;
 }
 .page-cards .card {
-  position: fixed;
+  position: absolute;
   border: solid 3px #746c70;
   background-color: #4e4f50;
   font-weight: 1000;
@@ -18,6 +19,7 @@
   width: 15em;
   height: 25em;
   margin: 10em 0;
+  max-width: 250px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
