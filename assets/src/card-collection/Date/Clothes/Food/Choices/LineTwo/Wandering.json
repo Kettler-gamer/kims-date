@@ -1,3 +1,9 @@
 [
-    {"text":"Yo"}
+    {"text":"Kim: \"Är du trött i benen? Du har nämligen vandrat runt i mina tankar hela dagen...\"",
+    "command":"next",
+    "btnName":"😏"},
+
+    {"text":"Wilma: \"...\"",
+    "command":"next",
+    "btnName":"😏"}
 ]

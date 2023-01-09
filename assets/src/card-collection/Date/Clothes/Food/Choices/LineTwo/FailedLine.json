@@ -1,0 +1,9 @@
+[
+    {"text":"Servitrisen kom med maten.",
+    "command":"next",
+    "btnName":"😋"},
+
+    {"text":"Kim och Wilma satt och åt i tystnad och sedan gick de skilda vägar och sågs aldrig igen...",
+    "command":"retry",
+    "btnName":"Försök igen?"}
+]

@@ -1,17 +1,17 @@
 [
-    {"text":"Kim:\"Vet du vad som har 150 tänder och håller tillbaka ett stort odjur?\"",
+    {"text":"Kim: \"Vet du vad som har 150 tänder och håller tillbaka ett stort odjur?\"",
     "command":"next",
     "btnName":"😏"},
 
-    {"text":"Wilma:\"...nej...\"",
+    {"text":"Wilma: \"...nej...\"",
     "command":"next",
     "btnName":"😉"},
 
-    {"text":"Kim:\"Min gylf!\"",
+    {"text":"Kim: \"Min gylf!\"",
     "command":"next",
     "btnName":"😏"},
 
-    {"text":"Wilma:\"...\"",
+    {"text":"Wilma: \"...\"",
     "command":"next",
     "btnName":"😐"},
 
@@ -19,7 +19,7 @@
     "command":"next",
     "btnName":"😕"},
 
-    {"text":"Wilma:\"Är du säker på att det är ett \"stort\" odjur? Låter mer som en liten snigel...\"",
+    {"text":"Wilma: \"Är du säker på att det är ett \"stort\" odjur? Låter mer som en liten snigel...\"",
     "command":"next",
     "btnName":"😱"},
 
@@ -27,7 +27,16 @@
     "command":"next",
     "btnName":"😠"},
 
-    {"text":"\"\"",
+    {"text":"Kim: \"jaha? Jag försöker iallafall! Vart är dina raggningsrepliker?\"",
     "command":"next",
-    "btnName":"😠"}
+    "btnName":"😠"},
+
+    {"text":"Wilma: \"Bakom en gylf du aldrig kommer öppna!\"",
+    "command":"next",
+    "btnName":"😱"},
+
+    {"text":"Kim blev stum.",
+    "command":"next",
+    "btnName":"😶",
+    "newSrc":"Date/Clothes/Food/Choices/LineTwo/FailedLine"}
 ]
