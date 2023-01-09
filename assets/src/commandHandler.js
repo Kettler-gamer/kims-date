@@ -51,6 +51,7 @@ function onRetry() {
   }
   onNextCard(getCardsToRemove(), { newSrc: "Home/Bedroom/Main" });
   updateCalls();
+  callsElement.style = "";
 }
 
 function checkConditions(card) {

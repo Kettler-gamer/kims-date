@@ -1,0 +1,33 @@
+[
+    {"text":"Kim:\"Vet du vad som har 150 tänder och håller tillbaka ett stort odjur?\"",
+    "command":"next",
+    "btnName":"😏"},
+
+    {"text":"Wilma:\"...nej...\"",
+    "command":"next",
+    "btnName":"😉"},
+
+    {"text":"Kim:\"Min gylf!\"",
+    "command":"next",
+    "btnName":"😏"},
+
+    {"text":"Wilma:\"...\"",
+    "command":"next",
+    "btnName":"😐"},
+
+    {"text":"Wilma ser lite sur ut!",
+    "command":"next",
+    "btnName":"😕"},
+
+    {"text":"Wilma:\"Är du säker på att det är ett \"stort\" odjur? Låter mer som en liten snigel...\"",
+    "command":"next",
+    "btnName":"😱"},
+
+    {"text":"\"Fy fan vad otrevligt!\" tänker Kim!",
+    "command":"next",
+    "btnName":"😠"},
+
+    {"text":"\"\"",
+    "command":"next",
+    "btnName":"😠"}
+]

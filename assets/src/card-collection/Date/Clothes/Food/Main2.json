@@ -4,30 +4,31 @@
         {"text": "Blomma",
         "command":"set-prop gaveFlower true",
         "btnName": "Ge",
+        "newSrc": "Date/Clothes/Food/Choices/Flower",
         "condition":"playerChoices.flower == \"true\""},
 
-        {"text":"",
+        {"text":"Du är som solen. Jag behöver dig i mitt liv, det fullkomligt strålar om dig och det är som att jag dras till dig.",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
-        "condition": "playerChoices.LineTwo == \"\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Sun",
+        "condition": "playerChoices.lineTwo == \"sun\""},
 
-        {"text":"",
+        {"text":"Vet du vad som har 150 tänder och håller tillbaka ett stort odjur?",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
-        "condition": "playerChoices.LineTwo == \"\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Fly",
+        "condition": "playerChoices.lineTwo == \"fly\""},
 
-        {"text":"",
+        {"text":"Är du ett trådlöst nätverk? För jag känner en viss connection.",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
-        "condition": "playerChoices.LineTwo == \"\""},
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Connection",
+        "condition": "playerChoices.lineTwo == \"connection\""},
 
-        {"text":"",
+        {"text":"Är du trött i benen? Du har nämligen vandrat runt i mina tankar hela dagen.",
         "command":"next",
         "btnName":"Säg",
-        "newSrc":"Date/Clothes/Food/Choices/LineTwo/",
-        "condition": "playerChoices.LineTwo == \"\""}
+        "newSrc":"Date/Clothes/Food/Choices/LineTwo/Wandering",
+        "condition": "playerChoices.lineTwo == \"wandering\""}
     ]}
 ]
